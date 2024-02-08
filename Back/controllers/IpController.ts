@@ -5,6 +5,63 @@ import { MinimalIpData } from "../interface/MinimalIpData";
 import { MinimalIpData2} from "../interface/MinimalCityData";
 import { MinimalIpData3} from "../interface/MinimalIspData";
 
+    /**
+     * @swagger
+     * /ip/{ip}:
+     *  get:
+     *    summary: Récupère les informations sur une adresse IP.
+     *    tags: [ip]
+     *    parameters:
+     *      - in: path
+     *        name: ip
+     *        required: true
+     *        description: Adresse IP dont on souhaite récupérer les informations.
+     *        schema:
+     *          type: string
+     *    responses:
+     *      200:
+     *        description: Succès, les informations sur l'adresse IP sont récupérées.
+     *      
+     */
+
+    /**
+     * @swagger
+     * /city/{ip}:
+     *  get:
+     *    summary: Récupère la ville depuis une adresse IP.
+     *    tags: [city]
+     *    parameters:
+     *      - in: path
+     *        name: ip
+     *        required: true
+     *        description: Adresse IP dont on souhaite récupérer les informations.
+     *        schema:
+     *          type: string
+     *    responses:
+     *      200:
+     *        description: Succès, les informations sur l'adresse IP sont récupérées.
+     *      
+     */
+
+    /**
+     * @swagger
+     * /isp/{ip}:
+     *  get:
+     *    summary: Récupère les informations sur un FAI grâce à l'ip.
+     *    tags: [isp]
+     *    parameters:
+     *      - in: path
+     *        name: ip
+     *        required: true
+     *        description: Adresse IP dont on souhaite récupérer les informations.
+     *        schema:
+     *          type: string
+     *    responses:
+     *      200:
+     *        description: Succès, les informations sur l'adresse IP sont récupérées.
+     *      
+     */
+
 export class IpController {
     private API_KEY: string;
 

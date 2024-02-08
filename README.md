@@ -41,13 +41,14 @@ Swagger : `npm install --save-dev @types/swagger-jsdoc @types/swagger-ui-express
 
 Assurez vous que vos dépendences sont bien à jour ou dans une version supérieure a la liste suivante : 
 
-lorem
-lorem
-
-Lorem
-
-Lorem
-
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.16",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "ts-node": "^10.9.2"
 
 # Utilisation de l'API 🧑‍💻
 
@@ -59,10 +60,16 @@ Les différentes routes de l'API et leurs fonctionalités seront visible sur la 
 
 Vous pouvez maintenant utiliser l'application comme bon vous semble en effectutant des requêtes de votre choix grâce à des outils tels que [Postman](https://www.postman.com/).
 
+Exemple 1:
 
+![Exemple 1](image.png)
 
+Exemple 2:
 
+![Exemple 2](image-1.png)
 
+Exemple 3:
 
+![alt text](image-2.png)
 
 [Lien vers l'API](https://geo.ipify.org/docs)

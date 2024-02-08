@@ -6,7 +6,7 @@ export const swaggerOptions = {
         info:{
             title:'API IP LOCATION',
             version:'1.0.0',
-            description:'Documentation de l API IP LOCATION'
+            description:'Documentation de l\'API IP LOCATION'
         },
         servers: [
             {
