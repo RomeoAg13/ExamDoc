@@ -47,7 +47,7 @@ import { MinimalIpData3} from "../interface/MinimalIspData";
      * @swagger
      * /isp/{ip}:
      *  get:
-     *    summary: Récupère les informations sur un FAI grâce à l'ip.
+     *    summary: Récupère les informations sur un FAI grâce à l'IP.
      *    tags: [isp]
      *    parameters:
      *      - in: path

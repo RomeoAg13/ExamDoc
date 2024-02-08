@@ -54,7 +54,7 @@ Assurez vous que vos dépendences sont bien à jour ou dans une version supérie
 
 Pour utiliser l'API, étant donné que nous travaillons sur un projet uniquement en back-end, il faudra utiliser l'URL pour rentrer les paramètres de recherche.
 
-Quel que soit la route, celui-ci devra être entré à la fin de l'URL après le dernier `/`, voici un petit exemple de comment faire : `http://localhost:3000/ROUTEADEFINIR/127.0.0.1`
+Quel que soit la route, celui-ci devra être entré à la fin de l'URL après le dernier `/`, voici un petit exemple de comment faire : http://localhost:3000/ip/89.85.233.48
 
 Les différentes routes de l'API et leurs fonctionalités seront visible sur la page http://localhost:3000/api-docs/ une fois que votre application sera fonctionelle.
 
