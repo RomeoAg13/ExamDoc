@@ -16,7 +16,13 @@ app.get("/ip/:ip", async (req:Request, res:Response)=>{
     await ipController.getIp(req,res);
 });
 
+app.get('/city/:ip', async( req:Request, res:Response)=>{
+    await ipController.getCity(req,res);
+})
 
+app.get('/isp/:ip', async( req:Request, res:Response)=>{
+    await ipController.getIsp(req,res);
+})
 
 const specs = swaggerJSDOC(swaggerOptions);
 app.use('/api-docs',swaggerUi.serve, swaggerUi.setup(specs));

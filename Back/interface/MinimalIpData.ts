@@ -9,4 +9,4 @@ interface MinimalIpData{
     isp:string,
 }
 
-export {MinimalIpData};
+export {MinimalIpData}
