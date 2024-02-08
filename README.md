@@ -39,3 +39,5 @@ Pour utiliser l'API, étant donné que nous travaillons sur un projet uniquement
 Celui-ci devra être entré à la fin de l'URL après le dernier `/`, voici un petit exemple de comment faire : `http://localhost:3000/ROUTEADEFINIR/127.0.0.1`
 
 Les différentes routes de l'API et leurs fonctionalités seront visible sur la page http://localhost:3000/api-docs/ une fois que votre application sera fonctionelle.
+
+Vous pouvez maintenant utiliser l'application comme bon vous semble en effectutant des requêtes de votre choix grâce à des outils tels que Postman.
