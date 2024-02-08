@@ -2,8 +2,8 @@ import { Request, Response } from "express";
 import axios, { AxiosResponse } from 'axios';
 import { IP_API_BASE_URL } from "../constants/config";
 import { MinimalIpData } from "../interface/MinimalIpData";
-import { MinimalIpData2} from "../interface/MinimalIpData2";
-import { MinimalIpData3} from "../interface/MinimalIpData3";
+import { MinimalIpData2} from "../interface/MinimalCityData";
+import { MinimalIpData3} from "../interface/MinimalIspData";
 
 export class IpController {
     private API_KEY: string;
